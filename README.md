@@ -44,6 +44,10 @@ There are a few options you can change by editing the index.coffee file.
 
 - Apple Music exposes the release year and loved/favorited status; Spotify's scripting API does not, so those are omitted for Spotify tracks.
 
+## Theming
+
+This widget is theme-aware. Its colors come from CSS custom properties (text, panel tint, status and series colors) with sensible built-in fallbacks, so it looks right on its own. Install the [Theme Controller](https://github.com/dionmunk/uebersicht-theme-controller) widget and this one automatically follows its color scheme and light/dark mode, staying in sync with the rest of the collection.
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
