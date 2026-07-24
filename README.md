@@ -4,7 +4,7 @@ A simple music widget for [Übersicht](http://tracesof.net/uebersicht). Based on
 
 ## Screenshot
 
-![Screenshot](screenshots/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Options
 
