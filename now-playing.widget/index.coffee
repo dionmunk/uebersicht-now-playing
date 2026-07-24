@@ -87,20 +87,20 @@ else
     position: absolute
     left: 92px
     right: 12px
-    top: 70px
+    top: 71px
     margin-top: 0
     height: 12px
 
 .layout-compact .artist-name
     margin-top: 4px
-    margin-bottom: 5px
+    margin-bottom: 1px
 
 .layout-compact .song-name
     margin-top: 1px
-    margin-bottom: 4px
+    margin-bottom: 2px
 
 .layout-compact .bar-container
-    top: 5px
+    top: 4px   // bar sits 1px above the times, which stay flush with the album-art bottom
 
 .album-art
     width: @infoHeight
@@ -209,7 +209,7 @@ else
     border-radius: @borderRadius
     background: var(--level-base, rgba(#fff, .2))
     position: absolute
-    top: 3px
+    top: 4px
     left: 30px
     box-shadow: 0 1px 1px rgba(20, 1, 1, 0.10)   // base bar: matches text shadow
 
@@ -226,7 +226,7 @@ else
     display: block
 
 .mode-both .bar-container
-    width: calc(100% - 60px)
+    width: calc(100% - 61px)   // 1px narrower on the right → 3px gap to time-remaining (2px on the elapsed side)
 
 // No-time: hide both time labels and let the bar fill the row.
 // Declared after the mode-* rules so it overrides them at equal specificity.
