@@ -1,6 +1,6 @@
 # Now Playing
 
-A simple music widget for [Übersicht](http://tracesof.net/uebersicht). Based on the [Playbox](http://tracesof.net/uebersicht-widgets/#Playbox) widget by [Pe8er](https://github.com/Pe8er). This widget shows the current playing song from either Apple Music or Spotify. It also shows the album artwork if it can find it and has a progress bar with elapsed/remaining time. When a track is loved/favorited in Apple Music, a small star appears next to the title.
+A simple music widget for [Übersicht](http://tracesof.net/uebersicht). Based on the [Playbox](https://github.com/Pe8er/Playbox.widget) widget by [Pe8er](https://github.com/Pe8er). This widget shows the current playing song from either Apple Music or Spotify. It also shows the album artwork if it can find it and has a progress bar with elapsed/remaining time. When a track is loved/favorited in Apple Music, a small star appears next to the title.
 
 ## Screenshot
 
