@@ -62,7 +62,7 @@ else
     position: relative
     clear: both
     color var(--text, #fff)
-    text-shadow: 0 1px 1px rgba(20, 1, 1, 0.10)
+    text-shadow: 0 1px 1px rgba(20, 1, 1, 0.2)
     background var(--panel-bg, rgba(#000, .15))
     -webkit-backdrop-filter: blur(var(--panel-blur, 48px))
     backdrop-filter: blur(var(--panel-blur, 48px))
@@ -152,7 +152,7 @@ else
     width: 218px
 
 .is-loved
-    color: var(--loved, #e84341)
+    color: var(--primary, var(--loved, #e84341))
     font-size: 11px
     font-weight: bold
     -webkit-text-stroke: 1px currentColor   // thickens the star glyph (bolder look)
